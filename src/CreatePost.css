@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+} */
+*{
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+body {
+    min-height: 100vh;
+}
+.main_box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: url("1325726.png");
+    height: 100vh;
+    background-size:cover ;
+    z-index: auto;
+   
+
+    /* display: none; */
+}
+
+.Box1{
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.83);
+    border: 2px solid white; 
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+input[type="text"],
+input[type="file"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}

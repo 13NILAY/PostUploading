@@ -1,0 +1,125 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box{
+    background: url("1325726.png");
+    background-size: cover ;
+    z-index: auto;
+}
+
+.main_box2345{
+    background: url("1325726.png");
+    background-size: cover ;
+    z-index: auto;
+    height: 100vh;
+}
+.CreateNewPost,.userTitle,.logout{
+    color:white;
+    
+    font-weight: 700;
+    /* position: absolute; */
+   
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear ;
+}
+.H1{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+
+/* .CreateNewPost{
+    display: flex;
+    justify-content: center;
+
+
+} */
+.userTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    top: 10rem;
+    color:aqua;
+    padding-top: 15px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+}
+ .CreateNewPost,.logout{
+    padding: 1px;
+    top:16px;
+    /* left:10rem; */
+    border: 1px solid rgba(245, 245, 245, 0.893);
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.573);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+   
+}
+.CreateNewPost:hover,.logout:hover{
+    color: rgb(130, 252, 252);
+    background-color: black;
+    border: 4px solid white;
+
+}
+header{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.AllPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+#card1 {
+    /* width: 300px; */
+    height: 380px;
+    border:2px solid plum;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    /* box-shadow: 8px 8px 12px plum; */
+
+    transition: 1s;
+    background-color: rgba(243, 46, 144, 0.589);
+    width: calc(100% / 4); /* Each post takes up one-third of the container */
+    padding: 10px;
+}
+img{
+   width: 100%;
+   background-color: aqua;
+   border-radius: 20px;
+   height: 65%;
+}
+#card1:hover{
+  
+    /* box-shadow: 8px 8px 10px whitesmoke; */
+    border: 5px solid plum;
+}
+.Butto:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.868);
+}
+
+  
+
+
+  
+/* You can achieve this layout using CSS Grid or Flexbox. Here's an example using Flexbox:
+
+css
+Copy code */
